@@ -21,6 +21,7 @@ You can divide commands by using spaces or by moving to next line, as you want.
 Fact is stack prog. lang., so you have stack and you can operate with it.
 You also can make new stacks (also named mem stacks).
 Instruction has discription about every command, so use it!
+You also can make comments in script, it will look like comments in Python (starts with '#'), but comment must have own line!
 If you have some issues or questions, you can use github or just write me in Discord (psychoz42).
 
 So, instruction and this essay may have some factual (unlikely) and grammar errors, so write me about it and i will correct or add some information!
