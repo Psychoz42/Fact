@@ -94,8 +94,8 @@ def codeInterpretation():
     stack = []
     funcs = []
     curS = 0
-    curVal = 0
-    tempVStock = 0
+    #curVal = 0
+    #tempVStock = 0
 
     while curS < len(script):
         #print("Stack:", stack)
@@ -123,13 +123,13 @@ def codeInterpretation():
             case 3:
                 stack.append(stack[-1])
             case 4:
-                stack[-1] += stack[-2]
+                stack[-2] += stack[-1]
                 stack.pop(-2)
             case 5:
                 stack[-2] -= stack[-1]
                 stack.pop(-1)
             case 6:
-                stack[-1] *= stack[-2]
+                stack[-2] *= stack[-1]
                 stack.pop(-2)
             case 7:
                 stack[-2] /= stack[-1]
