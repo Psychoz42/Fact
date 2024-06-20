@@ -124,16 +124,16 @@ def codeInterpretation():
                 stack.append(stack[-1])
             case 4:
                 stack[-2] += stack[-1]
-                stack.pop(-2)
+                stack.pop()
             case 5:
                 stack[-2] -= stack[-1]
-                stack.pop(-1)
+                stack.pop()
             case 6:
                 stack[-2] *= stack[-1]
-                stack.pop(-2)
+                stack.pop()
             case 7:
                 stack[-2] /= stack[-1]
-                stack.pop(-1)
+                stack.pop()
             case 8:
                 tempS = []
                 tempS.extend(stack)
