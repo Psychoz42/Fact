@@ -2,7 +2,6 @@ import sys
 import os
 from tkinter import *
 from tkinter import ttk
-#test pr
 
 def printOutput(text):
     output.insert(END, '\n'+str(text))
