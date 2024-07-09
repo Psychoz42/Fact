@@ -421,7 +421,6 @@ file_menu.add_command(label="Exit", command=savePExit)
 
 main_menu.add_cascade(label="File", menu=file_menu)
 main_menu.add_cascade(label="Instruction", command=instrOpen)
-#main_menu.add_cascade(label="View")
 
 root.config(menu=main_menu)
 
